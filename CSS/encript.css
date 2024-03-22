@@ -29,7 +29,7 @@ nav p{
 
 
 .caja {
-  width: 940px;
+  width: auto;
   position: relative;
   margin: 0 auto;
   display: flex; /* Agrega display: flex; para usar flexbox */
@@ -243,6 +243,13 @@ footer {
 }
 
 @media (min-width: 1080px) {
+  .not-found img {
+    width: 75%;
+    display: unset;
+  }
+}
+
+@media (min-width: 420px) {
   .not-found img {
     width: 75%;
     display: unset;
