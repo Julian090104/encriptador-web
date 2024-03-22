@@ -255,3 +255,10 @@ footer {
     display: unset;
   }
 }
+
+@media (min-width: 280px) {
+  .not-found img {
+    width: 75%;
+    display: unset;
+  }
+}
